@@ -217,7 +217,7 @@ tim@tim-VirtualBox:~/ans/mnt-homeworks/08-ansible-01-base/playbook$ cat inventor
       localhost:
         ansible_connection: local
 ```
-14. Запустите playbook на окружении `prod.yml`. При запуске `ansible` должен запросить у вас пароль. Убедитесь что факты `some_fact` для каждого из хостов определены из верных `group_vars`.
+11. Запустите playbook на окружении `prod.yml`. При запуске `ansible` должен запросить у вас пароль. Убедитесь что факты `some_fact` для каждого из хостов определены из верных `group_vars`.
 ```console
 tim@tim-VirtualBox:~/ans/mnt-homeworks/08-ansible-01-base/playbook$ ansible-playbook -i inventory/prod.yml  site.yml --ask-vault-pass
 Vault password: 
@@ -258,7 +258,7 @@ ubuntu                     : ok=3    changed=0    unreachable=0    failed=0    s
 
 ```
 
-16. Заполните `README.md` ответами на вопросы. Сделайте `git push` в ветку `master`. В ответе отправьте ссылку на ваш открытый репозиторий с изменённым `playbook` и заполненным `README.md`.
+12. Заполните `README.md` ответами на вопросы. Сделайте `git push` в ветку `master`. В ответе отправьте ссылку на ваш открытый репозиторий с изменённым `playbook` и заполненным `README.md`.
 
 [playbook](https://github.com/hank134/mnt-homeworks/tree/master/08-ansible-01-base/playbook)
 
