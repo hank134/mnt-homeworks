@@ -259,10 +259,11 @@ ubuntu                     : ok=3    changed=0    unreachable=0    failed=0    s
 ```
 
 16. Заполните `README.md` ответами на вопросы. Сделайте `git push` в ветку `master`. В ответе отправьте ссылку на ваш открытый репозиторий с изменённым `playbook` и заполненным `README.md`.
-```
+
 [playbook](https://github.com/hank134/mnt-homeworks/tree/master/08-ansible-01-base/playbook)
+
 [README.md](https://github.com/hank134/mnt-homeworks/blob/master/08-ansible-01-base/playbook/README.md)
-```
+
 
 ## Необязательная часть
 
